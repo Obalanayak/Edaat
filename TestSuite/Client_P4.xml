@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesExportBillsTransferRemarksField"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesVerifyTransferRemarkFieldNotAppearsBySelectingOtherTemplate"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesExportBillsVerifyMaxLengthOfTransferRemarkFeild"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSystemMgmBillersMgmVerifyThatFieldDoesntAppearAfterSelectingTemplateOtherThanOneTime"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerApprovedBillersMgmVerifyThatTransferRemarkFieldAppearsWhenBillerHasSubBiller"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesVerifyTransferRemarkNotes"/>
+
+	 
+	 
+	 <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportGroupPermission"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportRetrievedDataWithoutSelectPaymentMethod"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomReconciliationReportVerifyRetrievedData"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsReceviablesCustomReconciliationReportDefaultField"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomRecReportExportToExcel"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceCusRecReportsCheckingandUncheckingReportFieldsViewChangesInGridColumns"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportPagination"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportVerifySubBillersCheckboxes"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomReconciliationReportVerifyAvailablePaymentMethods"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustRecReportsSearchBtnClickable"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesBalanceDetailsVerifyInvoiceTotalAmountAndOperationalFees"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesDailyReconciliationReportSADADVerifyDataRetrivedCorrectly"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsVerifyDataInDailyReconciliationReport"/>
+	  
+	  
+	  
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayablesIncomingBillsVerifyNewlyAddedPaymentMethodColumn"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayablesIncomingBillsVerifyNewlyAddedPaymentMethodSearchDropdown"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayIncommingBillsVerifyPayButtonAppearsWithMultiPaymentMethods"/>
+	  
+	  
+	  
+	  
+	  
+     </classes>
+  </test> 
+</suite> 

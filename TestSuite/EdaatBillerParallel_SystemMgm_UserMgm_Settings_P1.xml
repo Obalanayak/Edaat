@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" parallel="tests" thread-count="8">
+	
+<!--  Scenario 1 -->
+<test name="Test-class test 1">
+<parameter name="test-name" value="test-method"/>
+<classes>
+	 <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsPriceListViewGrid"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsTermsMangementSearch"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementApprovedGridview"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementApprovedtoggle"/>
+      <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementNotapprovedGridview"/>
+       <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesExportBillsTransferRemarksField"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesVerifyTransferRemarkFieldNotAppearsBySelectingOtherTemplate"/>
+     
+</classes>
+</test>
+<!--  Scenario 2 -->
+<test name="Test-class test 2">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddInvoicetemplate"/>
+   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsInvoicesTemplatesDelete"/>
+   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsInvoicesTemplatesVariable"/>
+   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesExportBillsVerifyMaxLengthOfTransferRemarkFeild"/>
+	 <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSystemMgmBillersMgmVerifyThatFieldDoesntAppearAfterSelectingTemplateOtherThanOneTime"/>
+</classes>
+</test>
+<!--  Scenario 3 -->
+<test name="Test-class test 3">
+<parameter name="test-name" value="test-method"/>
+<classes>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDetailsUpdate"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsProductManagementSearch"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDeleteDiscount"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsInvoicesTemplatesViewDetails"/>
+      <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerApprovedBillersMgmVerifyThatTransferRemarkFieldAppearsWhenBillerHasSubBiller"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesVerifyTransferRemarkNotes"/>
+
+</classes>
+</test>
+<!--  Scenario 4 -->
+<test name="Test-class test 4">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsProductManagementAddInActivate"/>
+    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsProductManagementAddActivate"/>
+    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSystemMgmtLoginActivated"/>
+    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserListDelete"/>
+     <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportGroupPermission"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportRetrievedDataWithoutSelectPaymentMethod"/>
+        
+</classes>
+</test>
+<!--  Scenario 5 -->
+<test name="Test-class test 5">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    		<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserGrpMgmAdd"/>
+		    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserGrpMgmDelete"/>
+		    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserGrpMgmSearch"/>
+		    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsPriceListView"/>
+            <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsDiscountmanagementToggel"/>
+            <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomReconciliationReportVerifyRetrievedData"/>
+	       <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsReceviablesCustomReconciliationReportDefaultField"/>
+</classes>
+</test>
+<!--  Scenario 6 -->
+<test name="Test-class test 6">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserGrpMgmPermissionEdit"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserListAdd"/>
+         <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserListSearch"/>
+        <!--class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayIncommingBills"/-->
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomRecReportExportToExcel"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceCusRecReportsCheckingandUncheckingReportFieldsViewChangesInGridColumns"/>
+	  
+</classes>
+</test>
+<!--  Scenario 7 -->
+<test name="Test-class test 7">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsInvoicesTemplatesGridview"/>
+         <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsPricingListSearch"/>
+         <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsProductManagementEdit"/>
+		<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSearchDiscount"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsPricingListDelete"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportPagination"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsCustomReconciliationReportVerifySubBillersCheckboxes"/>
+
+</classes>
+</test>
+<!--  Scenario 8 -->
+<test name="Test-class test 8">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	
+         <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsDisMgmAddDisdeactivate"/>
+		<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsAddPriceList"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsAddDiscountActivate"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUserListEdit"/>
+        <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayablesIncomingBillsGridview"/>
+         <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustomReconciliationReportVerifyAvailablePaymentMethods"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesReportsCustRecReportsSearchBtnClickable"/>
+        
+
+</classes>
+</test>
+<!--  Scenario 9 -->
+<test name="Test-class test 9">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsClientInvoicesReportGenerate"/>
+	    <!--class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerIndividualClientReport"/-->
+	    <!--class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsCorporateClientReport"/-->
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsReceviablesOverdueBillReport"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsTermsMgmDeleteTerm"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsTermsManagements"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesBalanceDetailsVerifyInvoiceTotalAmountAndOperationalFees"/>
+	  <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesDailyReconciliationReportSADADVerifyDataRetrivedCorrectly"/>
+	   
+</classes>
+</test>
+<!--  Scenario 10 -->
+<test name="Test-class test 10">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	
+        <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportClientAccountStatement"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsSadadPaymentVerify"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsSubBillerReportVerify"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSuperbillerClientInvoicesReport"/>
+	    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsContentMngUploadBulkData"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsPaidOutsideEDAATBills"/>
+	    <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsVerifyDataInDailyReconciliationReport"/>
+	  	 <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayablesIncomingBillsVerifyNewlyAddedPaymentMethodColumn"/>
+
+</classes>
+</test>
+<!--  Scenario 11 -->
+<test name="Test-class test 11">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    	
+          <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReportsSuperCorporateClientReport"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceviableReportsforSuperBillerOverdueBills"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportforSuperBillerClientAccountStatementReport"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsSuperBillerSadadPaymentTransactions"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivableReportsSuperBillerVerifySubBillerReports"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayablesIncomingBillsVerifyNewlyAddedPaymentMethodSearchDropdown"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientPayIncommingBillsVerifyPayButtonAppearsWithMultiPaymentMethods"/>
+	   
+</classes>
+</test>
+<!--  Scenario 12 -->
+<test name="Test-class test 12">
+<parameter name="test-name" value="test-method"/>
+<classes>
+    
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsAddTermsManagements"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsTermsManagementAddTermandDeactivate"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsViewTermsManagements"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSettingsBillsCancellation"/>
+	   <class name="com.azmqalabs.edaattestautomation.testscripts.Client.ClientAccountStatementSearch"/>
+	   
+</classes>
+</test>
+</suite>
