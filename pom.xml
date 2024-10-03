@@ -6,9 +6,9 @@
 <name>Global Auto Testing Platform</name>
 <description>Support All Types of Testing</description>
 <properties>
-<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+<maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
 <jdk.version>1.8</jdk.version>
-<maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
+<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 <suiteXmlFile/>
 <slf4j-simple.version>1.7.25</slf4j-simple.version>
 <slf4j-api.version>1.7.25</slf4j-api.version>
