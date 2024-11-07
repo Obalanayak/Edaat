@@ -59,7 +59,7 @@
 <version>${maven-surefire-plugin.version}</version>
 <configuration>
 <suiteXmlFiles>
-<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+<suiteXmlFile>$TestSuite/Client_P3.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
 </plugin>
